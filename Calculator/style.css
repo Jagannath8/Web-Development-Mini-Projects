@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    }
+    body{
+        margin-top:2% ;
+        font-family: "Avenir Next",monospace,sans-serif;
+    }
+    h1{
+    margin:0.5% 0% 0% 1% ;
+    color:orangered;
+    font-size: 2rem;
+    text-align: left;
+    border-bottom: 2px solid #222222;
+    }
+    .calculator{
+        text-align: justify;
+        margin:5% 3% 3% 3%;
+        height: 50%;
+        width: 500px;
+        padding-left: 80px; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+        box-shadow: 0 4px 8px 0 rgba(23, 157, 234, 0.917), 0 6px 20px 0 rgba(32, 215, 221, 0.65);
+    }
+    .calculator-screen{
+        width: 77%;
+        height:12vh;
+        opacity: 0.8;
+        background-color: rgb(248, 242, 230);
+        color: tomato;
+        text-align: right;
+        font-size: 200%;
+        border: none;
+        padding-right: 20px;
+    }
+    .calculator-keys{
+        width:80%;
+        height: 80%;
+    }
+    button{
+        width:20%;
+        height: 10vh;
+        background: none;
+        border-radius:50%;
+        color: black;
+        font-size: 150%;
+        border-radius: 100%;
+        margin: 3% auto 0%;
+        border: black;
+    }
+    button:nth-child(1),button:nth-child(2),button:nth-child(3){
+        color: black;
+        background-color:#2ce63b;
+        border-radius: 50%;
+        line-height: 3rem;
+        font-size: 130%;
+    }
+    button:nth-child(3){
+        font-size: 180%;
+    }
+    button:nth-child(17){
+        font-size: 180%;
+        width:20%;
+        height: 10vh;
+    }
+    button:nth-child(18){
+        width:30%;
+        height: 10vh;
+    }
+    /* .zero-btn{
+        margin: 0 27%;
+        border-radius: 50%;
+    } */
+    button:nth-child(1):hover,button:nth-child(2):hover,button:nth-child(3):hover{
+        color: #ffffff;
+        background-color: teal;
+        }
+    .equal{
+        color: rgb(0, 0, 0);
+        background-color: rgb(243, 51, 8);
+        margin: 0 auto;
+        width: 90px;
+    }
+    .operator{
+        color: black;
+        background:none;
+    }
+    button:nth-child(4){
+        background-color: #20b2aa;
+        font-size: 200%;
+        line-height: 205%;
+    }
+    button:nth-child(8){
+        background-color: #ffa500;
+        font-size: 200%;
+    }
+    button:nth-child(12){
+        background-color: #f08080;
+        font-size: 200%;
+    }
+    button:nth-child(16){
+        background-color: #9477af;
+        font-size: 200%;
+    }
+
+
+    
+    /* @media screen and (min-width:560px)
+    {
+        .calculator{
+            text-align: center;
+            margin:0 auto;
+            width:50%;
+            height: 50%;
+            border: 2px solid teal;
+            font-size: 150%;
+        }
+        h1{
+            margin:0% 25% 1% 25%;
+            color:orangered;
+            text-align: left;
+            border-bottom:1px solid #222222;
+            font-size: 2rem;
+            }
+        
+    }
+    @media screen and (min-width:760px)
+    {
+        .calculator{
+            text-align: center;
+            margin:0 auto;
+            width:50%;
+            height: 50%;
+            border: 2px solid teal;
+            font-size:20px;
+        }
+        h1{
+            margin:0% 25% 1% 25%;
+            color:orangered;
+            text-align: left;
+            border-bottom:1px solid #222222;
+            font-size: 2rem;
+            }
+        
+    }
+    
+    @media screen and (min-width:1024px)
+    {   
+        .calculator{
+        text-align: center;
+        margin:0 auto;
+        width: 50%;
+        font-size:150%;
+        border: 2px solid teal;
+        }
+        h1{
+            margin:0% 25% 1% 25%;
+            color:orangered;
+            text-align: left;
+            border-bottom:2px solid #222222;
+            font-size:3rem;
+            }
+    }
+    @media screen and (min-width:2000px)
+    {   
+        .calculator{
+        text-align: center;
+        margin:0 auto;
+        width: 50%;
+        font-size:220%;
+        border: 2px solid teal;
+        }
+        h1{
+            margin:0% 25% 1% 25%;
+            color:orangered;
+            text-align: left;
+            border-bottom:2px solid #222222;
+            font-size:3rem;
+            }
+    } */
