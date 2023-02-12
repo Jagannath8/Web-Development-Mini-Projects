@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300;1,400&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin :0;
+    padding: 0;
+
+}
+nav{
+    font-family: 'Noto Sans','Source Sans Pro';
+   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: rgb(74, 207, 207);
+
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 48px;
+    padding: 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans','Source Sans Pro';
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius:12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: rgb(32, 129, 15);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i {
+    cursor: pointer;
+
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 74px;
+  
+}
+
+.songItem{
+    height: 58px;
+    display: flex;
+    /* background-color: azure; */
+    background: rgb(238,235,174);
+     background: radial-gradient(circle, rgba(238,235,174,1) 0%, rgba(250,3,129,0.9671218829328606) 100%);
+    width: 86%;;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+
+}
+.songItem img{
+    width: 55px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: po;
+}
+
+.songInfo{
+    position: absolute;
+    left: 12vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity is 0.3s ease-in;
+}
